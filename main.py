@@ -47,7 +47,7 @@ def epoch_to_humanreadable(epoch_time):
     return datetime.datetime.fromtimestamp(epoch_time)
 
 
-epoch_time_now = time.time()  # converts time to epoch time
+epoch_time_now = time.time()  # converts time to epoch time.
 
 while True:
     time.sleep(360)  # time in seconds
